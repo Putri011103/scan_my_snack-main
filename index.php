@@ -109,7 +109,6 @@ function tampilkanHistory($conn) {
 
             <div class="header_extra d-flex flex-row align-items-center justify-content-end ml-auto">
                 <div class="work_hours">Mo - Sat: 8:00am - 9:00pm</div>
-                <div class="button button_1 header_button"><a href="#">Login</a></div>
                 <div class="social header_social">
                     <ul class="d-flex flex-row align-items-center justify-content-start">
                         <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
