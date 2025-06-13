@@ -276,7 +276,6 @@
 				<div class="work_hours">Mo - Sat: 8:00am - 9:00pm</div>
 
 				<!-- Login Button -->
-				<div class="button button_1 header_button"><a href="#">Login</a></div>
 
 				<!-- Header Social -->
 				<div class="social header_social">

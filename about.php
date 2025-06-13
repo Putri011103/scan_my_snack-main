@@ -106,7 +106,6 @@ $result = $conn->query("SELECT * FROM snacks ORDER BY created_at DESC");
 
 
 				<!-- Login Button -->
-				<div class="button button_1 header_button"><a href="#">Login</a></div>
 
 				<!-- Header Social -->
 				<div class="social header_social">

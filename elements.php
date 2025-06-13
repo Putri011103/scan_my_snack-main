@@ -47,7 +47,6 @@
 				<div class="header_phone">+34 586 778 8892</div>
 
 				<!-- Login Button -->
-				<div class="button button_1 header_button"><a href="#">Login</a></div>
 
 				<!-- Header Social -->
 				<div class="social header_social">
