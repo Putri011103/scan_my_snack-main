@@ -1,0 +1,72 @@
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  margin-top: 20px;
+  background: rgb(13, 145, 226);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(35, 176, 227);
+}
+
+.result {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.healthy {
+  background: #c8e6c9;
+  color: rgb(66, 166, 232);
+}
+
+.unhealthy {
+  background: #ffcdd2;
+  color: #c62828;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
