@@ -149,8 +149,8 @@ $result = $conn->query("SELECT * FROM snacks ORDER BY created_at DESC");
 					<!-- Home -->
 
 					<div class="home d-flex flex-column align-items-start justify-content-end">
-						<div class="background_image" style="background-image:url(images/about.jpg)"></div>
-						<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/about.jpg" data-speed="0.8"></div>
+						<div class="background_image" style="background-image:url(images/evaluasi.jpg)"></div>
+						<div class="parallax_background parallax-window" data-parallax="scroll"  data-speed="0.8"></div>
 						<div class="home_overlay"><img src="images/home_overlay.png" alt=""></div>
 						<div class="home_container">
 							<div class="container">
