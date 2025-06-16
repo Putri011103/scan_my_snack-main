@@ -205,7 +205,7 @@
 	<!-- Home -->
 
 	<div class="home d-flex flex-column align-items-start justify-content-end">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/services.jpg" data-speed="0.8"></div>
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/Rekomendasi.jpg" data-speed="0.8"></div>
 		<div class="home_overlay"><img src="images/home_overlay.png" alt=""></div>
 		<div class="home_container">
 			<div class="container">
@@ -213,7 +213,7 @@
 					<div class="col">
 						<div class="home_content">
 							<div class="home_title">Rekomendasi</div>
-							<div class="home_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+							<div class="home_text">Rekomendasi Snack Sehat Untukmu!</div>
 						</div>
 					</div>
 				</div>

@@ -419,7 +419,7 @@ Mulai sekarang dan buat pilihan ngemil yang lebih cerdas!</div>
                     <!-- Team Member 1 -->
                     <div class="team-card">
                         <div class="team-member">
-                            <div class="member-avatar">👩</div>
+                            <div class="member-avatar"> <img src="images/dila.jpg" alt=""></div>
                             <h3 class="member-name">Fadhila Shubha Maimuna</h3>
                             <p class="member-role">Desain UI/UX & Riset Gizi</p>
                             
@@ -441,7 +441,7 @@ Mulai sekarang dan buat pilihan ngemil yang lebih cerdas!</div>
                     <!-- Team Member 2 -->
                     <div class="team-card">
                         <div class="team-member">
-                            <div class="member-avatar">👨</div>
+                            <div class="member-avatar"><img src="images/princes.jpg" alt=""></div>
                             <h3 class="member-name">Isnaini Putri Seruni</h3>
                             <p class="member-role">Developer Frontend & Data Analytics</p>
                             
