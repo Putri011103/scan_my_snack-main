@@ -416,8 +416,10 @@ window.addEventListener("load", function () {
 
 
 	<!-- Footer -->
+	 
+</div>
 
-	<footer class="footer">
+<footer class="footer">
 		<div class="footer_content">
 			<div class="container">
 				<div class="row">
@@ -492,7 +494,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			</div>			
 		</div>
 	</footer>
-</div>
 
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="styles/bootstrap-4.1.2/popper.js"></script>

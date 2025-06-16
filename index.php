@@ -185,36 +185,47 @@ function tampilkanHistory($conn) {
         </div>
     </div>
 
-	<div class="container mt-5">
-    <h2>Riwayat Evaluasi Camilan</h2>
-    <table>
-    <thead>
-        <tr><th>No</th><th>Nama</th><th>Gula</th><th>Lemak</th><th>Kalori</th><th>Hasil</th><th>Aksi</th></tr>
-    </thead>
-    <tbody>
-        <?php
-        $result = $conn->query("SELECT * FROM history");
-        $no = 1;
-        while ($row = $result->fetch_assoc()) {
-            echo "<tr>
-                <td>{$no}</td>
-                <td>{$row['nama_snack']}</td>
-                <td>{$row['kadar_gula']}</td>
-                <td>{$row['lemak_total']}</td>
-                <td>{$row['kalori']}</td>
-                <td>{$row['hasil']}</td>
-                <td>
-                    <a href='?edit_id={$row['id']}'>Edit</a> |
-                    <a href='action_snack.php?delete_id={$row['id']}' onclick=\"return confirm('Yakin?')\">Hapus</a>
-                </td>
-            </tr>";
-            $no++;
-        }
-        ?>
-    </tbody>
-</table>
+	<div class="container mb-5">
+    <h2 class="mb-4">Riwayat Evaluasi Camilan</h2>
 
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered align-middle text-center">
+            <thead class="table-dark">
+                <tr>
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>Gula</th>
+                    <th>Lemak</th>
+                    <th>Kalori</th>
+                    <th>Hasil</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php
+                $result = $conn->query("SELECT * FROM history");
+                $no = 1;
+                while ($row = $result->fetch_assoc()) {
+                    echo "<tr>
+                        <td>{$no}</td>
+                        <td>{$row['nama_snack']}</td>
+                        <td>{$row['kadar_gula']}</td>
+                        <td>{$row['lemak_total']}</td>
+                        <td>{$row['kalori']}</td>
+                        <td>{$row['hasil']}</td>
+                        <td>
+                            <a href='?edit_id={$row['id']}' class='btn btn-sm btn-warning me-1'>Edit</a>
+                            <a href='action_snack.php?delete_id={$row['id']}' class='btn btn-sm btn-danger' onclick=\"return confirm('Yakin ingin menghapus data ini?')\">Hapus</a>
+                        </td>
+                    </tr>";
+                    $no++;
+                }
+                ?>
+            </tbody>
+        </table>
+    </div>
 </div>
+
 
 
     <!-- Testimonials -->
@@ -295,32 +306,82 @@ function tampilkanHistory($conn) {
 
 <!-- Footer -->
 <footer class="footer">
-  <div class="footer_content">
-    <div class="container">
-      <div class="row">
+		<div class="footer_content">
+			<div class="container">
+				<div class="row">
 
-        <!-- Footer About -->
-        <div class="col-lg-3 footer_col">
-          <div class="footer_about">
-            <div class="footer_logo">
-              <a href="#">
-                <div>Check<span>Your</span>Snack</div>
-                <div>Evaluasi Camilan Sehat</div>
-              </a>
-            </div>
-            <div class="footer_about_text">
-              <p>
-                Platform interaktif untuk mengecek apakah camilanmu sehat atau perlu dihindari.
-                Mulai sekarang dan buat pilihan ngemil yang lebih cerdas!
-              </p>
-            </div>
-          </div>
-        </div>
+					<!-- Footer About -->
+					<div class="col-lg-3 footer_col">
+						<div class="footer_about">
+							<div class="footer_logo">
+								<a href="#">
+									<div>Check<span>Your</span>Snack</div>
+									<div>Evaluasi Camilan Sehat</div>
+								</a>
+							</div>
+							<div class="footer_about_text">
+								<p>Platform interaktif untuk mengecek apakah camilanmu sehat atau perlu dihindari.
+Mulai sekarang dan buat pilihan ngemil yang lebih cerdas!</p>
+							</div>
+						</div>
+					</div>
 
-      </div>
-    </div>
-  </div>
-</footer>
+					<!-- Footer Contact Info -->
+					<div class="col-lg-3 footer_col">
+						<div class="footer_contact">
+							<div class="footer_title">Informasi Kontak</div>
+							<ul class="contact_list">
+								<li>+62 854 1234 567</li>
+								<li>dhilasub123@gmail.com</li>
+								<li>seruni0111@gmail.com</li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Footer Locations -->
+					<div class="col-lg-3 footer_col">
+						<div class="footer_location">
+							<div class="footer_title">Lokasi Kami</div>
+							<ul class="locations_list">
+								<li>
+									<div class="location_title">Bantul</div>
+									<div class="location_text">Jalan Kebangsaan Timur</div>
+								</li>
+								<li>
+									<div class="location_title">Yogyakarta</div>
+									<div class="location_text">1481 Jalan Kebangsaan No. 931</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="footer_bar">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="footer_bar_content  d-flex flex-md-row flex-column align-items-md-center justify-content-start">
+							<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</div>
+							<nav class="footer_nav ml-md-auto">
+								<ul class="d-flex flex-row align-items-center justify-content-start">
+									<li><a href="index.php">Beranda</a></li>
+									<li><a href="about.php">Evaluasi Camilan</a></li>
+									<li><a href="services.php">Rekomendasi</a></li>
+									<li><a href="blog.php">Artikel</a></li>
+									<li><a href="contact.php">Tentang Kami</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>
+	</footer>
 
 </div>
 

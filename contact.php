@@ -462,7 +462,10 @@ Mulai sekarang dan buat pilihan ngemil yang lebih cerdas!</div>
                 </div>
 	<!-- Footer -->
 
-	<footer class="footer">
+	
+</div>
+
+<footer class="footer">
 		<div class="footer_content">
 			<div class="container">
 				<div class="row">
@@ -529,7 +532,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<li><a href="index.php">Beranda</a></li>
 									<li><a href="about.php">Evaluasi Camilan</a></li>
 									<li><a href="services.php">Rekomendasi</a></li>
-									<li><a href="blog.php">News</a></li>
+									<li><a href="blog.php">Artikel</a></li>
 									<li><a href="contact.php">Tentang Kami</a></li>
 								</ul>
 							</nav>
@@ -539,7 +542,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			</div>			
 		</div>
 	</footer>
-</div>
 
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="styles/bootstrap-4.1.2/popper.js"></script>

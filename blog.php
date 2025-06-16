@@ -352,7 +352,7 @@
             </div>
         </div>
 
-        <div class="articles-grid" id="articlesGrid">
+        <div class="articles-grid mb-4" id="articlesGrid">
             <!-- Articles will be populated by JavaScript -->
         </div>
     </div>
