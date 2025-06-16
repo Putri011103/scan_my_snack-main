@@ -275,17 +275,6 @@
 				<!-- Work Hourse -->
 				<div class="work_hours">Mo - Sat: 8:00am - 9:00pm</div>
 
-				<!-- Login Button -->
-
-				<!-- Header Social -->
-				<div class="social header_social">
-					<ul class="d-flex flex-row align-items-center justify-content-start">
-						<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-					</ul>
-				</div>
-
 				<!-- Hamburger -->
 				<div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
 			</div>
@@ -310,13 +299,6 @@
 			<div class="menu_link">Mo - Sat: 8:00am - 9:00pm</div>
 			<div class="menu_link">+34 586 778 8892</div>
 			<div class="menu_link"><a href="#">Make an appointment</a></div>
-		</div>
-		<div class="social menu_social">
-			<ul class="d-flex flex-row align-items-center justify-content-start">
-				<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-			</ul>
 		</div>
 	</div>
 

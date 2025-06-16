@@ -332,18 +332,6 @@
 				<!-- Work Hourse -->
 				<div class="work_hours">Mo - Sat: 8:00am - 9:00pm</div>
 
-
-				<!-- Login Button -->
-
-				<!-- Header Social -->
-				<div class="social header_social">
-					<ul class="d-flex flex-row align-items-center justify-content-start">
-						<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-					</ul>
-				</div>
-
 				<!-- Hamburger -->
 				<div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
 			</div>
@@ -369,19 +357,12 @@
 			<div class="menu_link">+34 586 778 8892</div>
 			<div class="menu_link"><a href="#">Make an appointment</a></div>
 		</div>
-		<div class="social menu_social">
-			<ul class="d-flex flex-row align-items-center justify-content-start">
-				<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-			</ul>
-		</div>
 	</div>
 
 	<!-- Home -->
 
 	<div class="home d-flex flex-column align-items-start justify-content-end">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/contact.jpg" data-speed="0.8"></div>
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/kontak.jpg" data-speed="0.8"></div>
 		<div class="home_overlay"><img src="images/home_overlay.png" alt=""></div>
 		<div class="home_container">
 			<div class="container">
@@ -419,7 +400,7 @@ Mulai sekarang dan buat pilihan ngemil yang lebih cerdas!</div>
                     <!-- Team Member 1 -->
                     <div class="team-card">
                         <div class="team-member">
-                            <div class="member-avatar"> <img src="images/dila.jpg" alt=""></div>
+                            <div class="member-avatar"> <img src="images/subha.png" alt=""></div>
                             <h3 class="member-name">Fadhila Shubha Maimuna</h3>
                             <p class="member-role">Desain UI/UX & Riset Gizi</p>
                             
@@ -441,7 +422,7 @@ Mulai sekarang dan buat pilihan ngemil yang lebih cerdas!</div>
                     <!-- Team Member 2 -->
                     <div class="team-card">
                         <div class="team-member">
-                            <div class="member-avatar"><img src="images/princes.jpg" alt=""></div>
+                            <div class="member-avatar"><img src="images/putri.png" alt=""></div>
                             <h3 class="member-name">Isnaini Putri Seruni</h3>
                             <p class="member-role">Developer Frontend & Data Analytics</p>
                             
