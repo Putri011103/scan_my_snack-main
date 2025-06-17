@@ -275,17 +275,6 @@
 				<!-- Work Hourse -->
 				<div class="work_hours">Mo - Sat: 8:00am - 9:00pm</div>
 
-				<!-- Login Button -->
-
-				<!-- Header Social -->
-				<div class="social header_social">
-					<ul class="d-flex flex-row align-items-center justify-content-start">
-						<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-					</ul>
-				</div>
-
 				<!-- Hamburger -->
 				<div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
 			</div>
@@ -311,19 +300,12 @@
 			<div class="menu_link">+34 586 778 8892</div>
 			<div class="menu_link"><a href="#">Make an appointment</a></div>
 		</div>
-		<div class="social menu_social">
-			<ul class="d-flex flex-row align-items-center justify-content-start">
-				<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-			</ul>
-		</div>
 	</div>
 
 	<!-- Home -->
 
 	<div class="home d-flex flex-column align-items-start justify-content-end">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/blog.jpg" data-speed="0.8"></div>
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/Artikel.jpg" data-speed="0.8"></div>
 		<div class="home_overlay"><img src="images/home_overlay.png" alt=""></div>
 		<div class="home_container">
 			<div class="container">
@@ -352,7 +334,7 @@
             </div>
         </div>
 
-        <div class="articles-grid" id="articlesGrid">
+        <div class="articles-grid mb-4" id="articlesGrid">
             <!-- Articles will be populated by JavaScript -->
         </div>
     </div>

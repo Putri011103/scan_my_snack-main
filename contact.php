@@ -332,18 +332,6 @@
 				<!-- Work Hourse -->
 				<div class="work_hours">Mo - Sat: 8:00am - 9:00pm</div>
 
-
-				<!-- Login Button -->
-
-				<!-- Header Social -->
-				<div class="social header_social">
-					<ul class="d-flex flex-row align-items-center justify-content-start">
-						<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-					</ul>
-				</div>
-
 				<!-- Hamburger -->
 				<div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
 			</div>
@@ -369,19 +357,12 @@
 			<div class="menu_link">+34 586 778 8892</div>
 			<div class="menu_link"><a href="#">Make an appointment</a></div>
 		</div>
-		<div class="social menu_social">
-			<ul class="d-flex flex-row align-items-center justify-content-start">
-				<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-			</ul>
-		</div>
 	</div>
 
 	<!-- Home -->
 
 	<div class="home d-flex flex-column align-items-start justify-content-end">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/contact.jpg" data-speed="0.8"></div>
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/kontak.jpg" data-speed="0.8"></div>
 		<div class="home_overlay"><img src="images/home_overlay.png" alt=""></div>
 		<div class="home_container">
 			<div class="container">
@@ -419,7 +400,7 @@ Mulai sekarang dan buat pilihan ngemil yang lebih cerdas!</div>
                     <!-- Team Member 1 -->
                     <div class="team-card">
                         <div class="team-member">
-                            <div class="member-avatar">👩</div>
+                            <div class="member-avatar"> <img src="images/subha.png" alt=""></div>
                             <h3 class="member-name">Fadhila Shubha Maimuna</h3>
                             <p class="member-role">Desain UI/UX & Riset Gizi</p>
                             
@@ -441,7 +422,7 @@ Mulai sekarang dan buat pilihan ngemil yang lebih cerdas!</div>
                     <!-- Team Member 2 -->
                     <div class="team-card">
                         <div class="team-member">
-                            <div class="member-avatar">👨</div>
+                            <div class="member-avatar"><img src="images/putri.png" alt=""></div>
                             <h3 class="member-name">Isnaini Putri Seruni</h3>
                             <p class="member-role">Developer Frontend & Data Analytics</p>
                             
@@ -462,7 +443,10 @@ Mulai sekarang dan buat pilihan ngemil yang lebih cerdas!</div>
                 </div>
 	<!-- Footer -->
 
-	<footer class="footer">
+	
+</div>
+
+<footer class="footer">
 		<div class="footer_content">
 			<div class="container">
 				<div class="row">
@@ -529,7 +513,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<li><a href="index.php">Beranda</a></li>
 									<li><a href="about.php">Evaluasi Camilan</a></li>
 									<li><a href="services.php">Rekomendasi</a></li>
-									<li><a href="blog.php">News</a></li>
+									<li><a href="blog.php">Artikel</a></li>
 									<li><a href="contact.php">Tentang Kami</a></li>
 								</ul>
 							</nav>
@@ -539,7 +523,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			</div>			
 		</div>
 	</footer>
-</div>
 
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="styles/bootstrap-4.1.2/popper.js"></script>

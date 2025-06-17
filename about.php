@@ -69,7 +69,6 @@ $result = $conn->query("SELECT * FROM snacks ORDER BY created_at DESC");
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
 <link rel="stylesheet" type="text/css" href="styles/about.css">
-<link rel="stylesheet" type="text/css" href="styles/abouts.css">
 <link rel="stylesheet" type="text/css" href="styles/about_responsive.css">
 </head>
 <body>
@@ -104,18 +103,6 @@ $result = $conn->query("SELECT * FROM snacks ORDER BY created_at DESC");
 				<!-- Work Hourse -->
 				<div class="work_hours">Mo - Sat: 8:00am - 9:00pm</div>
 
-
-				<!-- Login Button -->
-
-				<!-- Header Social -->
-				<div class="social header_social">
-					<ul class="d-flex flex-row align-items-center justify-content-start">
-						<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-					</ul>
-				</div>
-
 				<!-- Hamburger -->
 				<div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
 			</div>
@@ -136,21 +123,13 @@ $result = $conn->query("SELECT * FROM snacks ORDER BY created_at DESC");
 								<li><a href="contact.php">Tentang Kami</a></li>
 							</ul>
 						</nav>
-
-						<div class="social header_social">
-              <ul class="d-flex flex-row align-items-center justify-content-start">
-                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-              </ul>
-            </div>
 					</div>
 
 					<!-- Home -->
 
 					<div class="home d-flex flex-column align-items-start justify-content-end">
-						<div class="background_image" style="background-image:url(images/about.jpg)"></div>
-						<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/about.jpg" data-speed="0.8"></div>
+						<div class="background_image" style="background-image:url(images/evaluasi.jpg)"></div>
+						<div class="parallax_background parallax-window" data-parallax="scroll"  data-speed="0.8"></div>
 						<div class="home_overlay"><img src="images/home_overlay.png" alt=""></div>
 						<div class="home_container">
 							<div class="container">
@@ -416,8 +395,10 @@ window.addEventListener("load", function () {
 
 
 	<!-- Footer -->
+	 
+</div>
 
-	<footer class="footer">
+<footer class="footer">
 		<div class="footer_content">
 			<div class="container">
 				<div class="row">
@@ -492,7 +473,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			</div>			
 		</div>
 	</footer>
-</div>
 
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="styles/bootstrap-4.1.2/popper.js"></script>

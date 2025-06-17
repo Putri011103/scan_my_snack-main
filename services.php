@@ -158,16 +158,6 @@
 				<!-- Work Hourse -->
 				<div class="work_hours">Mo - Sat: 8:00am - 9:00pm</div>
 
-				<!-- Login Button -->
-
-				<!-- Header Social -->
-				<div class="social header_social">
-					<ul class="d-flex flex-row align-items-center justify-content-start">
-						<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
- 					</ul>
-				</div>
-
 				<!-- Hamburger -->
 				<div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
 			</div>
@@ -193,19 +183,12 @@
 			<div class="menu_link">+34 586 778 8892</div>
 			<div class="menu_link"><a href="#">Make an appointment</a></div>
 		</div>
-		<div class="social menu_social">
-			<ul class="d-flex flex-row align-items-center justify-content-start">
-				<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-			</ul>
-		</div>
 	</div>
 
 	<!-- Home -->
 
 	<div class="home d-flex flex-column align-items-start justify-content-end">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/services.jpg" data-speed="0.8"></div>
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/Rekomendasi.jpg" data-speed="0.8"></div>
 		<div class="home_overlay"><img src="images/home_overlay.png" alt=""></div>
 		<div class="home_container">
 			<div class="container">
@@ -213,7 +196,7 @@
 					<div class="col">
 						<div class="home_content">
 							<div class="home_title">Rekomendasi</div>
-							<div class="home_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+							<div class="home_text">Rekomendasi Snack Sehat Untukmu!</div>
 						</div>
 					</div>
 				</div>
@@ -255,34 +238,83 @@
             <!-- Snack cards akan diisi oleh JavaScript -->
         </div>
     </div>
-
-    <footer class="footer">
-    <div class="footer_content">
-    <div class="container">
-      <div class="row">
-
-        <!-- Footer About -->
-        <div class="col-lg-3 footer_col">
-          <div class="footer_about">
-            <div class="footer_logo">
-              <a href="#">
-                <div>Check<span>Your</span>Snack</div>
-                <div>Evaluasi Camilan Sehat</div>
-              </a>
-            </div>
-            <div class="footer_about_text">
-              <p>
-                Platform interaktif untuk mengecek apakah camilanmu sehat atau perlu dihindari.
-                Mulai sekarang dan buat pilihan ngemil yang lebih cerdas!
-              </p>
-            </div>
-          </div>
         </div>
+    
+<footer class="footer mt-5">
+		<div class="footer_content">
+			<div class="container">
+				<div class="row">
+					<!-- Footer About -->
+					<div class="col-lg-3 footer_col">
+						<div class="footer_about">
+							<div class="footer_logo">
+								<a href="#">
+									<div>Check<span>Your</span>Snack</div>
+									<div>Evaluasi Camilan Sehat</div>
+								</a>
+							</div>
+							<div class="footer_about_text">
+								<p>Platform interaktif untuk mengecek apakah camilanmu sehat atau perlu dihindari.
+Mulai sekarang dan buat pilihan ngemil yang lebih cerdas!</p>
+							</div>
+						</div>
+					</div>
 
-      </div>
-    </div>
-    </div>
-    </footer>
+					<!-- Footer Contact Info -->
+					<div class="col-lg-3 footer_col">
+						<div class="footer_contact">
+							<div class="footer_title">Informasi Kontak</div>
+							<ul class="contact_list">
+								<li>+62 854 1234 567</li>
+								<li>dhilasub123@gmail.com</li>
+								<li>seruni0111@gmail.com</li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Footer Locations -->
+					<div class="col-lg-3 footer_col">
+						<div class="footer_location">
+							<div class="footer_title">Lokasi Kami</div>
+							<ul class="locations_list">
+								<li>
+									<div class="location_title">Bantul</div>
+									<div class="location_text">Jalan Kebangsaan Timur</div>
+								</li>
+								<li>
+									<div class="location_title">Yogyakarta</div>
+									<div class="location_text">1481 Jalan Kebangsaan No. 931</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_bar">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="footer_bar_content  d-flex flex-md-row flex-column align-items-md-center justify-content-start">
+							<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</div>
+							<nav class="footer_nav ml-md-auto">
+								<ul class="d-flex flex-row align-items-center justify-content-start">
+									<li><a href="index.php">Home</a></li>
+									<li><a href="about.php">Evaluasi Camilan</a></li>
+									<li><a href="services.php">Rekomendasi</a></li>
+									<li><a href="blog.php">Artikel</a></li>
+									<li><a href="contact.php">Tentang Kami</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>
+	</footer>
 
 	<!-- Services -->
 </div>
